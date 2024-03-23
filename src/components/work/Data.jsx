@@ -1,59 +1,41 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
-
-
+import Work1 from "../../assets/dish-discover.jpeg";
 
 export const projectsData = [
-{
-  id: 1,
-  image: Work1,
-  title: 'Web design',
-  category: 'android',
-},
-{
-  id: 2,
-  image: Work2,
-  title: 'App mobile', 
-  category: 'android',
-},
-{
-  id: 3,
-  image: Work3,
-  title: 'Brand design', 
-  category: 'design',
-},
-{
-  id: 4,
-  image: Work4,
-  title: 'App mobile', 
-  category: 'ios',
-},
-{
-  id: 5,
-  image: Work5,
-  title: 'Brand design', 
-  category: 'others',
-},
+  {
+    id: 1,
+    image: Work1,
+    title: "Dish Discover",
+    category: "Web-Development",
+    link: "https://dish-discoverr.netlify.app/",
+  },
+  {
+    id: 2,
+    image: Work1,
+    title: "Dish Discover",
+    category: "Web-Development",
+    link: "https://dish-discoverr.netlify.app/",
+  },
+  {
+    id: 3,
+    image: Work1,
+    title: "Dish Discover",
+    category: "Web-Development",
+    link: "https://dish-discoverr.netlify.app/",
+  },
+  {
+    id: 4,
+    image: Work1,
+    title: "Dish Discover",
+    category: "Web-Development",
+    link: "https://dish-discoverr.netlify.app/",
+  },
 ];
 
 export const projectsNav = [
   {
-    name : 'all',
+    name: "all",
   },
   {
-    name : 'android',
+    name: "Web-Development",
   },
-  {
-    name : 'ios',
-  },
-  {
-    name : 'design',
-  },
-  {
-    name : 'others',
-  },
-
-]
+];
