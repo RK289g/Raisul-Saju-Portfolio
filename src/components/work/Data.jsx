@@ -1,5 +1,6 @@
 import Work1 from "../../assets/dish-discover.jpeg";
 import work2 from "../../assets/portfolio.jpeg";
+import work3 from "../../assets/secureDoc.jpeg";
 
 export const projectsData = [
   {
@@ -18,10 +19,10 @@ export const projectsData = [
   },
   {
     id: 3,
-    image: work2,
-    title: "Portfolio",
+    image: work3,
+    title: "Secure Doc",
     category: "Web-Development",
-    link: "https://raisul-saju-portfolio.netlify.app/",
+    link: "https://secure-doc.netlify.app/",
   },
   {
     id: 4,
