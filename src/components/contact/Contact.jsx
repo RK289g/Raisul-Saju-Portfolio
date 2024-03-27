@@ -1,5 +1,5 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./contact.css";
 
 const Contact = () => {
@@ -8,8 +8,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_tdxz4vb", "template_8rhqj9d", form.current, "u0pxBIKMVXsbY35NH")
-      e.target.reset()
+    emailjs.sendForm(
+      "service_tdxz4vb",
+      "template_8rhqj9d",
+      form.current,
+      "u0pxBIKMVXsbY35NH"
+    );
+    e.target.reset();
   };
 
   return (
@@ -27,13 +32,8 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">
-                mehadishakil469@gmail.com
-              </span>
-              <a
-                href="mailto:mehadishakil469@gmail.com.com"
-                className="contact__button"
-              >
+              <span className="contact__card-data">rksaju@gmail.com</span>
+              <a href="mailto:rksaju@gmail.com.com" className="contact__button">
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -42,9 +42,9 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">+8801796581711</span>
+              <span className="contact__card-data">+8801726092710</span>
               <a
-                href="https://api.whatsapp.com/send?phone=+88001796581711&text=Hello, more information!"
+                href="https://api.whatsapp.com/send?phone=+88001726092710&text=Hello, more information!"
                 className="contact__button"
               >
                 Write me{" "}
@@ -52,7 +52,7 @@ const Contact = () => {
               </a>
             </div>
 
-            <div className="contact__card">
+            {/* <div className="contact__card">
               <i className="bx bxl-messenger contact__card-icon"></i>
               <h3 className="contact__card-title">Messenger</h3>
               <span className="contact__card-data">user.mehadishakil469</span>
@@ -63,7 +63,7 @@ const Contact = () => {
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
 
