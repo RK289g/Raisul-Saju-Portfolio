@@ -11,8 +11,8 @@ import Work from './components/work/Work';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from "./components/scrollup/ScrollUp";
-// import Research from './components/research/Research';
-// import Blog from './components/blog/Blog';
+import Research from './components/research/Research';
+import Blog from './components/blog/Blog';
 
 const App = () => {
   return (
@@ -27,8 +27,8 @@ const App = () => {
         <Services />
         <Testimonials />
         <Work />
-        {/* <Research />
-        <Blog /> */}
+        <Research />
+        <Blog />
         <Contact />  
       </main>
 
