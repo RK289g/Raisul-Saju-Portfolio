@@ -20,11 +20,11 @@ const About = () => {
 
           <p className="about__description">
             {" "}
-            Greetings! I'm Raisul Karim, a forward-thinking frontend developer
-            currently pursuing my undergraduate degree in Computer Science and
-            Engineering. Proficient in HTML, CSS, and various frontend
-            technologies such as JavaScript, React, Vue.js, Bootstrap, Tailwind,
-            and Sass.
+            Greetings! I'm Raisul Karim Saju, a forward-thinking frontend
+            developer currently pursuing my undergraduate degree in Computer
+            Science and Engineering. Proficient in HTML, CSS, and various
+            frontend technologies such as JavaScript, React, Vue.js, Bootstrap,
+            Tailwind, and Sass.
           </p>
 
           <a
