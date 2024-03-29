@@ -20,7 +20,7 @@ export const projectsData = [
   {
     id: 3,
     image: work3,
-    title: "Secure Doc",
+    title: "Secure-Doc",
     category: "Web-Development",
     link: "https://secure-doc.netlify.app/",
   },
