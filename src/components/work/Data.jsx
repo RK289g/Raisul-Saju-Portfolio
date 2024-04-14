@@ -8,7 +8,7 @@ export const projectsData = [
     image: Work1,
     title: "Dish Discover",
     category: "Web-Development",
-    link: "https://dish-discoverr.netlify.app/",
+    link: "https://dishdiscover-main.netlify.app/",
   },
   {
     id: 2,
@@ -27,9 +27,9 @@ export const projectsData = [
   {
     id: 4,
     image: Work1,
-    title: "Dish Discover",
+    title: "Todo App",
     category: "Web-Development",
-    link: "https://dish-discoverr.netlify.app/",
+    link: "https://todo-mvc-main.netlify.app/",
   },
 ];
 
