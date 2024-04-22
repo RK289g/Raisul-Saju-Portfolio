@@ -1,6 +1,7 @@
 import Work1 from "../../assets/dish-discover.jpeg";
 import work2 from "../../assets/portfolio.jpeg";
 import work3 from "../../assets/secureDoc.jpeg";
+import work4 from "../../assets/todo-mvc.png";
 
 export const projectsData = [
   {
@@ -26,7 +27,7 @@ export const projectsData = [
   },
   {
     id: 4,
-    image: Work1,
+    image: work4,
     title: "Todo App",
     category: "Web-Development",
     link: "https://todo-mvc-main.netlify.app/",
