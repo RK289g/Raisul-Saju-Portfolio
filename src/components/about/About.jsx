@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/avout.jpg";
 import CV from "../../assets/John-Cv.pdf";
-import Info from "./info";
+// import Info from "./info";
 
 const About = () => {
   return (
@@ -16,7 +16,7 @@ const About = () => {
         <img src={AboutImg} alt="" className="about__img" />
 
         <div className="about__data">
-          <Info />
+          {/* <Info /> */}
 
           <p className="about__description">
             {" "}
