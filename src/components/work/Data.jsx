@@ -2,6 +2,7 @@ import Work1 from "../../assets/dish-discover.jpeg";
 import work2 from "../../assets/portfolio.jpeg";
 import work3 from "../../assets/secureDoc.jpeg";
 import work4 from "../../assets/bayt.png";
+import work5 from "../../assets/vint-solution.png";
 
 export const projectsData = [
   {
@@ -31,6 +32,13 @@ export const projectsData = [
     title: "Secure-Doc",
     category: "Web-Development",
     link: "https://secure-doc.netlify.app/",
+  },
+  {
+    id: 5,
+    image: work5,
+    title: "Vint Solution",
+    category: "Web-Development",
+    link: "https://vint-solution.vercel.app/",
   },
 ];
 
