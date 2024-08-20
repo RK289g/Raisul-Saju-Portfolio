@@ -40,13 +40,6 @@ export const projectsData = [
     category: "Web-Development",
     link: "https://vint-solution.vercel.app/",
   },
-  {
-    id: 5,
-    image: work5,
-    title: "Vint Solution",
-    category: "Web-Development",
-    link: "https://vint-solution.vercel.app/",
-  },
 ];
 
 export const projectsNav = [
