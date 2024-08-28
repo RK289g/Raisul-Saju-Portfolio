@@ -1,7 +1,7 @@
-import Work1 from "../../assets/dish-discover.jpeg";
+import Work1 from "../../assets/dish-discover.png";
 import work2 from "../../assets/portfolio.jpeg";
 import work3 from "../../assets/secureDoc.jpeg";
-import work4 from "../../assets/bayt.png";
+import work4 from "../../assets/bayt-archi.png";
 import work5 from "../../assets/vint-solution.png";
 
 export const projectsData = [
