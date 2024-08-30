@@ -49,4 +49,7 @@ export const projectsNav = [
   {
     name: "Web-Development",
   },
+  {
+    name: "Research",
+  },
 ];
