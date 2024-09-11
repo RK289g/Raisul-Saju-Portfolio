@@ -43,9 +43,15 @@ const Data = () => {
           </motion.h1>
         ))}
       </motion.div>
-      <h3 className="home__subtitle">Web Developer | Frontend Engineer</h3>
+      <motion.h3
+        className="home__subtitle"
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5, ease: "easeOut", delay: 2 }}
+      >
+        Web Developer | Frontend Engineer
+      </motion.h3>
       <p className="home__description">
-        {" "}
         I'm an enthusiastic and innovative web developer with a passion for
         creating robust, user-friendly, and cutting-edge websites. Welcome to my
         digital space, where code meets creativity, and user experience is at
