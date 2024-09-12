@@ -5,20 +5,34 @@ const Data = () => {
   const title = "Raisul Karim Saju";
 
   const letterVariants = {
-    hidden: { opacity: 0, y: -50 }, // Start hidden and below the view
+    hidden: { opacity: 0, y: -50 },
     visible: {
       opacity: 1,
-      y: 0, // Move to the original position
-      transition: { duration: 0.4 }, // Timing for each letter
+      y: 0,
+      transition: { duration: 0.2 },
     },
   };
 
-  // Define container for staggered animation
   const containerVariants = {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: 0.1, // Delay between the appearance of each letter
+        staggerChildren: 0.1,
+      },
+    },
+  };
+
+  const textVariants = {
+    hidden: {
+      clipPath: "inset(0 50% 0 50%)",
+      opacity: 0,
+    },
+    visible: {
+      clipPath: "inset(0 0% 0 0%)",
+      opacity: 1,
+      transition: {
+        duration: 1.5,
+        ease: "easeInOut",
       },
     },
   };
@@ -45,18 +59,25 @@ const Data = () => {
       </motion.div>
       <motion.h3
         className="home__subtitle"
-        initial={{ opacity: 0, x: -50 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.5, ease: "easeOut", delay: 2 }}
+        initial="hidden"
+        animate="visible"
+        variants={textVariants}
+        style={{ transformOrigin: "center" }}
       >
         Web Developer | Frontend Engineer
       </motion.h3>
-      <p className="home__description">
+      <motion.p
+        className="home__description"
+        initial="hidden"
+        animate="visible"
+        variants={textVariants}
+        style={{ transformOrigin: "center" }}
+      >
         I'm an enthusiastic and innovative web developer with a passion for
         creating robust, user-friendly, and cutting-edge websites. Welcome to my
         digital space, where code meets creativity, and user experience is at
         the forefront.
-      </p>
+      </motion.p>
       <a href="#contact" className="button button--flex">
         Say Hello
         <svg
