@@ -20,6 +20,13 @@ export const projectsData = [
     link: "https://dishdiscover-main.netlify.app/",
   },
   {
+    id: 5,
+    image: work5,
+    title: "Vint Solution",
+    category: "Web-Development",
+    link: "https://vint-solution.vercel.app/",
+  },
+  {
     id: 2,
     image: work2,
     title: "Portfolio",
@@ -32,13 +39,6 @@ export const projectsData = [
     title: "Secure-Doc",
     category: "Web-Development",
     link: "https://secure-doc.netlify.app/",
-  },
-  {
-    id: 5,
-    image: work5,
-    title: "Vint Solution",
-    category: "Web-Development",
-    link: "https://vint-solution.vercel.app/",
   },
 ];
 

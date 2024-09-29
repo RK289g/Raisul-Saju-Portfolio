@@ -44,14 +44,14 @@ const Data = () => {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        style={{ display: "flex" }} // Ensures letters are displayed in a row
+        style={{ display: "flex" }}
       >
         {title.split("").map((letter, index) => (
           <motion.h1
             key={index}
             variants={letterVariants}
             className="home__title"
-            style={{ display: "inline-block" }} // Make each letter inline
+            style={{ display: "inline-block" }}
           >
             {letter === " " ? "\u00A0" : letter}
           </motion.h1>
@@ -64,7 +64,7 @@ const Data = () => {
         variants={textVariants}
         style={{ transformOrigin: "center" }}
       >
-        Web Developer | Frontend Engineer
+        Web Developer | Frontend Engineer |<br /> ML enthusiast
       </motion.h3>
       <motion.p
         className="home__description"
