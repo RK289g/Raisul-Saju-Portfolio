@@ -3,8 +3,24 @@ import "./about.css";
 import AboutImg from "../../assets/avout.jpg";
 import CV from "../../assets/Raisul-Karim-Saju-FlowCV-Resume-20240509.pdf";
 // import Info from "./info";
+import { motion } from "framer-motion";
 
 const About = () => {
+  const textVariants = {
+    hidden: {
+      clipPath: "inset(0 50% 0 50%)",
+      opacity: 0,
+    },
+    visible: {
+      clipPath: "inset(0 0% 0 0%)",
+      opacity: 1,
+      transition: {
+        delay: 4,
+        duration: 1.5,
+        ease: "easeInOut",
+      },
+    },
+  };
   return (
     <section className="about section" id="about">
       <div className="about__header">
@@ -18,14 +34,19 @@ const About = () => {
         <div className="about__data">
           {/* <Info /> */}
 
-          <p className="about__description">
-            {" "}
+          <motion.p
+            initial="hidden"
+            animate="visible"
+            variants={textVariants}
+            style={{ transformOrigin: "center" }}
+            className="about__description"
+          >
             Greetings! I'm Raisul Karim Saju, a forward-thinking frontend
             developer currently pursuing my undergraduate degree in Computer
             Science and Engineering. Proficient in HTML, CSS, and various
             frontend technologies such as JavaScript, React, Vue.js, Bootstrap,
             Tailwind, and Sass.
-          </p>
+          </motion.p>
 
           <a
             download=""
