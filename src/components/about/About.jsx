@@ -2,7 +2,6 @@ import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/avout.jpg";
 import CV from "../../assets/Raisul-Karim-Saju-FlowCV-Resume-20240509.pdf";
-// import Info from "./info";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -44,8 +43,8 @@ const About = () => {
             Greetings! I'm Raisul Karim Saju, a forward-thinking frontend
             developer currently pursuing my undergraduate degree in Computer
             Science and Engineering. Proficient in HTML, CSS, and various
-            frontend technologies such as JavaScript, React, Vue.js, Bootstrap,
-            Tailwind, and Sass.
+            frontend technologies such as JavaScript, Typescript, React, Vue.js,
+            Ant Design, Mantine UI and Tailwind.
           </motion.p>
 
           <a
@@ -58,9 +57,9 @@ const About = () => {
             <svg
               class="button__icon"
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
+              width="26"
+              height="26"
+              viewBox="0 0 26 26"
               fill="none"
             >
               <path
