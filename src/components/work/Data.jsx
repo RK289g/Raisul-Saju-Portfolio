@@ -1,6 +1,6 @@
 import Work1 from "../../assets/dish-discover.png";
 import work2 from "../../assets/portfolio.jpeg";
-import work3 from "../../assets/secureDoc.jpeg";
+// import work3 from "../../assets/secureDoc.jpeg";
 import work4 from "../../assets/bayt-archi.png";
 import work5 from "../../assets/vint-solution.png";
 
@@ -24,7 +24,7 @@ export const projectsData = [
     image: work5,
     title: "Vint Solution",
     category: "Web-Development",
-    link: "https://vint-solution.vercel.app/",
+    link: "https://www.vintsolution.com/",
   },
   {
     id: 2,
@@ -33,13 +33,13 @@ export const projectsData = [
     category: "Web-Development",
     link: "https://raisul-saju-portfolio.netlify.app/",
   },
-  {
-    id: 3,
-    image: work3,
-    title: "Secure-Doc",
-    category: "Web-Development",
-    link: "https://secure-doc.netlify.app/",
-  },
+  // {
+  //   id: 3,
+  //   image: work3,
+  //   title: "Secure-Doc",
+  //   category: "Web-Development",
+  //   link: "https://secure-doc.netlify.app/",
+  // },
 ];
 
 export const projectsNav = [
