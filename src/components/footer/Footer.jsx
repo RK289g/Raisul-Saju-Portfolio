@@ -28,16 +28,16 @@ const Footer = () => {
 
         <div className="footer__social">
           <a
-            href="https://www.facebook.com/"
+            href="https://www.linkedin.com/in/raisul-karim-saju/"
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
           >
-            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-linkedin"></i>
           </a>
 
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/raisul_saju/"
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
