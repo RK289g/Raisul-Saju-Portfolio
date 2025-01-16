@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/avout.jpg";
-import CV from "../../assets/Raisul-Karim-Saju-FlowCV-Resume-20240509.pdf";
+import CV from "../../assets/Raisul-Karim-Saju-Resume.pdf";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -40,22 +40,23 @@ const About = () => {
             style={{ transformOrigin: "center" }}
             className="about__description"
           >
-            Greetings! I'm Raisul Karim Saju, a forward-thinking frontend
-            developer currently pursuing my undergraduate degree in Computer
-            Science and Engineering. Proficient in HTML, CSS, and various
-            frontend technologies such as JavaScript, Typescript, React, Vue.js,
-            Ant Design, Mantine UI and Tailwind.
+            Greetings! I'm Raisul Karim Saju, a self-taught front-end engineer
+            with a strong passion for learning new concepts and technologies.
+            Proficient in HTML, CSS, and various frontend technologies such as
+            JavaScript, Typescript, React, Next Js, Ant Design, Mantine UI and
+            Tailwind.
           </motion.p>
 
           <a
             download=""
             href={CV}
-            className="button 
-          button--flex"
+            className="button button--flex"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Download RESUME
             <svg
-              class="button__icon"
+              className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"

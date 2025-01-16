@@ -4,7 +4,7 @@
 }
 
 .skills__container {
-  grid-template-columns: repeat(2, 350px);
+  grid-template-columns: repeat(3, 300px);
   column-gap: 3rem;
   justify-content: center;
 }
@@ -17,18 +17,17 @@
 }
 
 .skills__title {
- font-size: var(--normal-font-size);
- font-weight: var(--font-medium);
- text-align: center;
- margin-bottom: var(--mb-1-5);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  text-align: center;
+  margin-bottom: var(--mb-1-5);
 }
 
 .skills__box {
   display: flex;
   justify-content: center;
-  column-gap: 2.5rem;
+  column-gap: 2rem;
 }
-
 
 .skills__group {
   display: grid;
@@ -57,8 +56,6 @@
   font-size: var(--tiny-font-size);
 }
 
-
-
 /*========================== BREAKPOINT ==============================*/
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -68,7 +65,7 @@
   }
 }
 /* For medium devices */
-@media screen and (max-width: 576px) { 
+@media screen and (max-width: 576px) {
   .skills__container {
     grid-template-columns: 1fr;
   }

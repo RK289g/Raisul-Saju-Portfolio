@@ -1,31 +1,32 @@
 import React from "react";
 
-const Backend = () => {
+const MachineLearning = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Backend</h3>
+      <h3 className="skills__title">Machine Learning</h3>
 
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">C++</h3>
+              <h3 className="skills__name">Python</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">C</h3>
+              <h3 className="skills__name">NumPy</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
+
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Python</h3>
+              <h3 className="skills__name">Pandas</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -33,25 +34,26 @@ const Backend = () => {
 
         <div className="skills__group">
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">MySQL</h3>
-              <span className="skills__level">Advance</span>
+              <h3 className="skills__name">Scikit-Learn</h3>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
+
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">MongoDB</h3>
+              <h3 className="skills__name">TensorFlow</h3>
               <span className="skills__level">Beginner</span>
             </div>
           </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Firebase</h3>
-              <span className="skills__level">Intermediate</span>
+              <h3 className="skills__name">Keras</h3>
+              <span className="skills__level">Beginner</span>
             </div>
           </div>
         </div>
@@ -60,4 +62,4 @@ const Backend = () => {
   );
 };
 
-export default Backend;
+export default MachineLearning;
